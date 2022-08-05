@@ -1,6 +1,7 @@
 {
-  "name": "CtrlUB",
-  "description": "[CtrlUB] Is a telegram userbot running on Python3 and use Pyrogram Library.",
+  "name": "shin",
+  "description": "[shin] Is a telegram userbot running on Python3 and use Pyrogram Library.",
+  "logo": "https://telegra.ph/file/9ffcecae609a1aae73971.jpg",
   "stack": "heroku-22",
   "env": {
     "API_ID": {
