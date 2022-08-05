@@ -15,9 +15,7 @@ load_dotenv(".env")
 API_HASH = getenv("API_HASH")
 API_ID = int(getenv("API_ID", ""))
 ALIVE_LOGO = getenv("ALIVE_LOGO", None)
-BLACKLIST_CHAT = getenv("BLACKLIST_CHAT", None)
-if not BLACKLIST_CHAT:
-    BLACKLIST_CHAT = []
+BLACKLIST_CHAT = [-1001473548283, -1001606516367]
 BOTLOG_CHATID = int(getenv("BOTLOG_CHATID") or 0)
 BRANCH = getenv("BRANCH", "main")
 DB_URL = getenv("DATABASE_URL", "")
