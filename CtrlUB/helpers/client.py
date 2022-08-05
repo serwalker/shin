@@ -1,9 +1,20 @@
+#
+# Copyright (C) 2021-2022 by TeamYukki@Github, < https://github.com/TeamYukki >.
+#
+# This file is part of < https://github.com/TeamYukki/YukkiMusicBot > project,
+# and is released under the "GNU v3.0 License Agreement".
+# Please see < https://github.com/TeamYukki/YukkiMusicBot/blob/master/LICENSE >
+#
+# All rights reserved
+
+
 import sys
 
 from pyrogram import Client
 from CtrlUB.config import (
     API_ID,
     API_HASH,
+    BOT_TOKEN,
     BOTLOG_CHATID,
     STRING_SESSION as string1,
     STRING_SESSION2 as string2,
@@ -11,6 +22,7 @@ from CtrlUB.config import (
     STRING_SESSION4 as string4,
     STRING_SESSION5 as string5,
 )
+from pyrogram.enums import ParseMode
 from CtrlUB.version import __version__
 from CtrlUB.logging import LOGGER
 
@@ -174,3 +186,26 @@ class Userbot(Client):
             LOGGER("Client 5").info(
                 f"Logged as {self.five.name} [{self.five.id}]"
             )
+
+
+class Bot(Client):
+    def __init__(self):
+        LOGGER("Assistant").info(f"Bot Starting")
+        super().__init__(
+            name="CtrlUBot",
+            api_id=API_ID,
+            api_hash=API_HASH,
+            bot_token=BOT_TOKEN,
+            parse_mode=ParseMode.DEFAULT
+        )
+
+    async def start(self):
+        await super().start()
+        get_me = await self.get_me()
+        self.username = get_me.username
+        self.id = get_me.id
+        if get_me.last_name:
+            self.name = get_me.first_name + " " + get_me.last_name
+        else:
+            self.name = get_me.first_name
+        LOGGER("Assistant").info(f"Bot started {self.name} [{self.id}]")
