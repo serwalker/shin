@@ -14,7 +14,7 @@ I am not responsible for the abuse of this bot.
 ```
 
 <h3 align="center">Click button bellow to deploy with heroku</h3>
-<p align="center"><a href="k"><img src="https://www.herokucdn.com/deploy/button.png" alt="Deploy to Heroku" target="_blank"/></a></p>
+<p align="center"><a href="https://telegram.dog/XTZ_HerokuBot?start=a2VubmVkeS1leC9DdHJsVUIgbWFpbg"><img src="https://www.herokucdn.com/deploy/button.png" alt="Deploy to Heroku" target="_blank"/></a></p>
 
 ## 🖇 Generating Pyrogram String Session
     
@@ -29,7 +29,7 @@ I am not responsible for the abuse of this bot.
 -  [Dan](https://github.com/delivrance) for [Pyrogram](https://github.com/pyrogram/pyrogram)
 -  [Kennedy-Ex](https://github.com/kennedy-ex) for [CtrlUB-Userbot](https://github.com/kennedy-ex/CtrlUB)
 
-#### 🔥 Special Thanks To [Everyone](https://github.com/mrismanaziz/PyroMan-Userbot/graphs/contributors) Who Has Helped Make This Userbot Awesome!
+#### 🔥 Special Thanks To Everyone Who Has Helped Make This Userbot Awesome!
 -  [TeamDerUntergang](https://github.com/TeamDerUntergang/Telegram-SedenUserBot) : SedenUserBot
 -  [TheHamkerCat](https://github.com/TheHamkerCat/WilliamButcherBot) : WilliamButcherBot
 -  [TeamYukki](https://github.com/TeamYukki/YukkiMusicBot) : YukkiMusicBot
