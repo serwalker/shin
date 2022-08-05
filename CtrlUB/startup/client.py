@@ -23,12 +23,12 @@ from CtrlUB.config import (
     STRING_SESSION5 as string5,
 )
 from pyrogram.enums import ParseMode
-from CtrlUB.version import __version__
-from CtrlUB.logging import LOGGER
+from shin.version import __version__
+from shin.logging import LOGGER
 
 MSG_ON = """
 ➠ **Client** `{}` **actived!**
-➠ **CtrlUB** `v{}`
+➠ **shin** `v{}`
 **Your userbot is ready to use!**
 """
 
@@ -192,7 +192,7 @@ class Bot(Client):
     def __init__(self):
         LOGGER("Assistant").info(f"Bot Starting")
         super().__init__(
-            name="CtrlUBot",
+            name="shinubot",
             api_id=API_ID,
             api_hash=API_HASH,
             bot_token=BOT_TOKEN,
