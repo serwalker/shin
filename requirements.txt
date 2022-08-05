@@ -29,4 +29,3 @@ uvloop
 wget
 youtube-search-python
 yt-dlp
-nothing
