@@ -43,7 +43,7 @@ class Userbot(Client):
             api_id=API_ID,
             api_hash=API_HASH,
             session_string=str(string1),
-            plugins=dict(root="CtrlUB/plugins"),
+            plugins=dict(root="shin/plugins"),
             in_memory=True
         )
         self.two = Client(
@@ -51,7 +51,7 @@ class Userbot(Client):
             api_id=API_ID,
             api_hash=API_HASH,
             session_string=str(string2),
-            plugins=dict(root="CtrlUB/plugins"),
+            plugins=dict(root="shin/plugins"),
             in_memory=True
         )
         self.three = Client(
@@ -59,7 +59,7 @@ class Userbot(Client):
             api_id=API_ID,
             api_hash=API_HASH,
             session_string=str(string3),
-            plugins=dict(root="CtrlUB/plugins"),
+            plugins=dict(root="shin/plugins"),
             in_memory=True
         )
         self.four = Client(
@@ -67,7 +67,7 @@ class Userbot(Client):
             api_id=API_ID,
             api_hash=API_HASH,
             session_string=str(string4),
-            plugins=dict(root="CtrlUB/plugins"),
+            plugins=dict(root="shin/plugins"),
             in_memory=True
         )
         self.five = Client(
@@ -75,12 +75,12 @@ class Userbot(Client):
             api_id=API_ID,
             api_hash=API_HASH,
             session_string=str(string5),
-            plugins=dict(root="CtrlUB/plugins"),
+            plugins=dict(root="shin/plugins"),
             in_memory=True
         )
 
     async def start(self):
-        LOGGER("Starting").info(f"CtrlUB Clients")
+        LOGGER("Starting").info(f"shin Clients")
         if string1:
             await self.one.start()
             clients.append(1)
