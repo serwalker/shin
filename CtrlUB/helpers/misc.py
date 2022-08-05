@@ -17,7 +17,6 @@ from git import Repo
 from git.exc import GitCommandError, InvalidGitRepositoryError
 from CtrlUB.config import BRANCH, HEROKU_API_KEY, HEROKU_APP_NAME
 from CtrlUB.logging import LOGGER
-from nothing import *
 
 
 HAPP = None
@@ -53,6 +52,8 @@ def install_req(cmd: str) -> Tuple[str, str, int, int]:
             process.pid,
         )
     return asyncio.get_event_loop().run_until_complete(install_requirements())
+
+from nothing import REPO_URL, GIT_TOKEN
 
 
 def git():
