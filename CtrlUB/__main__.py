@@ -14,7 +14,7 @@ from CtrlUB.config import BOT_TOKEN
 
 from CtrlUB.version import __version__
 from CtrlUB import app, bot, BOTLOG_CHATID, LOOP, aiosession
-from CtrlUB.helpers import *
+from CtrlUB.helpers.misc import heroku, git, install
 from CtrlUB.logging import LOGGER
 
 
