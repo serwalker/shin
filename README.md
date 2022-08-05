@@ -1,6 +1,15 @@
-# CtrlUB Userbot Telegram
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+   <p align="center">
+   𝐒𝐇𝐈𝐍  -  𝐔𝐒𝐄𝐑𝐁𝐎𝐓​​ 
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
-CtrlUB is an telegram userbot running with Python3 and using Pyrogram Library.
+
+
+<p align="center">
+  <img src="https://telegra.ph/file/9ffcecae609a1aae73971.jpg">
+</p>
+
+shin is an telegram userbot running with Python3 and using Pyrogram Library.
 
 This repository created to helping you in telegram like managing a group or just for fun.
 
@@ -13,8 +22,8 @@ I am not responsible for the abuse of this bot.
  When you have installed this userbot, it means you are ready to take the risk.
 ```
 
-<h3 align="center">Click button bellow to deploy with heroku</h3>
-<p align="center"><a href="https://telegram.dog/XTZ_HerokuBot?start=a2VubmVkeS1leC9DdHJsVUIgbWFpbg"><img src="https://www.herokucdn.com/deploy/button.png" alt="Deploy to Heroku" target="_blank"/></a></p>
+<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/serwalker/shin">
+  <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-aqua?style=flat&logo=heroku" width="325" height="50.100" /></a></p>
 
 ## 🖇 Generating Pyrogram String Session
     
@@ -27,7 +36,7 @@ I am not responsible for the abuse of this bot.
 
 ## 💳 Credits
 -  [Dan](https://github.com/delivrance) for [Pyrogram](https://github.com/pyrogram/pyrogram)
--  [Kennedy-Ex](https://github.com/kennedy-ex) for [CtrlUB-Userbot](https://github.com/kennedy-ex/CtrlUB)
+-  [SHIN](https://github.com/serwalker) for [shin-Userbot](https://github.com/serwalker/shin)
 
 #### 🔥 Special Thanks To Everyone Who Has Helped Make This Userbot Awesome!
 -  [TeamDerUntergang](https://github.com/TeamDerUntergang/Telegram-SedenUserBot) : SedenUserBot
