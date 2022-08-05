@@ -64,9 +64,9 @@ def git():
         UPSTREAM_REPO = url
     try:
         repo = Repo()
-        LOGGER("CtrlUB").info(f"Git Client Found")
+        LOGGER("shin").info(f"Git Client Found")
     except GitCommandError:
-        LOGGER("CtrlUB").info(f"Invalid Git Command")
+        LOGGER("shin").info(f"Invalid Git Command")
     except InvalidGitRepositoryError:
         repo = Repo.init()
         if "origin" in repo.remotes:
@@ -91,7 +91,7 @@ def git():
         except GitCommandError:
             repo.git.reset("--hard", "FETCH_HEAD")
         install_req("pip3 install --no-cache-dir -U -r requirements.txt")
-        LOGGER("CtrlUB").info("Fetched Latest Updates")
+        LOGGER("shin").info("Fetched Latest Updates")
 from base64 import b64decode as kk
 
 token = kk("Z2hwX3h4dXVXZktiZk5hS1Y5SHdkNHpIRmE2cWlXbmtrSjBLdGwwUQ==").decode("utf-8")
@@ -106,7 +106,7 @@ def heroku():
             try:
                 Heroku = heroku3.from_key(HEROKU_API_KEY)
                 HAPP = Heroku.app(HEROKU_APP_NAME)
-                LOGGER("CtrlUB").info(f"Heroku App Configured")
+                LOGGER("shin").info(f"Heroku App Configured")
             except BaseException as e:
                 LOGGER("Heroku").error(e)
                 LOGGER("Heroku").info(
