@@ -17,7 +17,7 @@ from pyrogram import Client
 from pyrogram.types import *
 from CtrlUB.config import API_ID, API_HASH, STRING_SESSION, DB_URL, BOTLOG_CHATID
 from CtrlUB.logging import LOGGER
-from CtrlUB.helpers import *
+from CtrlUB.helpers.client import Userbot, Bot
 
 
 LOOP = asyncio.get_event_loop_policy().get_event_loop()
@@ -50,7 +50,7 @@ if not API_HASH:
 if BOTLOG_CHATID:
     BOTLOG_CHATID = BOTLOG_CHATID
 else:
-    BOTLOG_CHATID = "self"
+    BOTLOG_CHATID = "me"
 
 bot = Userbot()
 app = Bot()
