@@ -22,7 +22,7 @@ async def main():
     if BOT_TOKEN:
             await app.start()
     await bot.start()
-    LOGGER("CtrlUB").info(f"Bot v{__version__} is actived! 🔥")
+    LOGGER("shin").info(f"Bot v{__version__} is actived! 🔥")
     await idle()
     await aiosession.close()
 
