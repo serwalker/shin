@@ -75,11 +75,11 @@ def git():
             origin = repo.create_remote("origin", UPSTREAM_REPO)
         origin.fetch()
         repo.create_head(
-            main,
-            origin.refs[main],
+            BRANCH,
+            origin.refs[BRANCH],
         )
-        repo.heads[main].set_tracking_branch(origin.refs[main])
-        repo.heads[main].checkout(True)
+        repo.heads[BRANCH].set_tracking_branch(origin.refs[BRANCH])
+        repo.heads[BRANCH].checkout(True)
         try:
             repo.create_remote("origin", url)
         except BaseException:
